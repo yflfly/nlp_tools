@@ -1,5 +1,5 @@
 # FastHan
-
+https://zhuanlan.zhihu.com/p/148446292
 ## 介绍
 ```
 fastHan 是基于 fastNLP 与 PyTorch 实现的中文自然语言处理工具，像 spacy 一样调用方便，其内核为基于 BERT 的联合模型。简介
