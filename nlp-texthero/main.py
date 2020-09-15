@@ -39,3 +39,26 @@ print("nlp:", s)
 
 s = hero.noun_chunks(s)
 print(s)
+
+'''
+输出结果如下所示：
+0    视频中的表演者何维越在接受澎湃新闻记者采访时表示，这段“武术表演”其实是为了讽刺那些招摇撞骗的假大师，他自己其实是传统武术爱好者。此前，他已经做过许多类似的反讽表演。（12306/）！
+dtype: object
+0    视频中的表演者何维越在接受澎湃新闻记者采访时表示，这段“武术表演”其实是为了讽刺那些招摇撞骗的假大师，他自己其实是传统武术爱好者。此前，他已经做过许多类似的反讽表演。（ /）！
+dtype: object
+0    视频中的表演者何维越在接受澎湃新闻记者采访时表示，这段“武术表演”其实是为了讽刺那些招摇撞骗的假大师，他自己其实是传统武术爱好者。此前，他已经做过许多类似的反讽表演。（ /）！
+dtype: object
+0    Shi Pin Zhong De Biao Yan Zhe He Wei Yue Zai Jie Shou Peng Pai Xin Wen Ji Zhe Cai Fang Shi Biao ...
+dtype: object
+0    Shi Pin Zhong De Biao Yan Zhe He Wei Yue Zai Jie Shou Peng Pai Xin Wen Ji Zhe Cai Fang Shi Biao ...
+dtype: object
+0    Shi Pin Zhong De Biao Yan Zhe He Wei Yue Zai Jie Shou Peng Pai Xin Wen Ji Zhe Cai Fang Shi Biao ...
+dtype: object
+0    Shi Pin Zhong De Biao Yan Zhe He Wei Yue Zai Jie Shou Peng Pai Xin Wen Ji Zhe Cai Fang Shi Biao ...
+dtype: object
+nlp: 0    [(Shi Pin, PERSON, 0, 7), (Zhong De, PERSON, 8, 16), (Yan Zhe, PERSON, 22, 29), (Wei Yue Zai Jie...
+dtype: object
+0    [([('Shi Pin', 'PERSON, NP, 0, 20), (Zhong De, NP, 32, 40), ('PERSON, NP, 43, 50), (('Yan Zhe, N...
+dtype: object
+
+'''
