@@ -60,5 +60,4 @@ nlp: 0    [(Shi Pin, PERSON, 0, 7), (Zhong De, PERSON, 8, 16), (Yan Zhe, PERSON,
 dtype: object
 0    [([('Shi Pin', 'PERSON, NP, 0, 20), (Zhong De, NP, 32, 40), ('PERSON, NP, 43, 50), (('Yan Zhe, N...
 dtype: object
-
 '''
