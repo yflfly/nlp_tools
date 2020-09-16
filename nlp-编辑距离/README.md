@@ -12,3 +12,7 @@
 问最少操作多少次可以把字符串T变为S？
 
 最少的操作次数，通常被称为编辑距离，即最短编辑距离。
+
+安装：
+
+pip install python-Levenshtein
