@@ -7,7 +7,7 @@ TF-IDF是一种基于频率的方法，它考虑了单词在语料库中出现�
 例如，在关于猫的文档中，单词cats会出现更多次。然而，仅仅计算频率是行不通的，因为像this和is这样的词是非常频繁的，但是它们并没有携带很多信息。TF-IDF将此考虑在内，并把这些常用单词的值置为零。
 
 同样，TF代表词频率，IDF代表逆文档频率：
-![Image text](https://github.com/yflfly/nlp_tools/nlp-TFIDF/1.jpg)
+![Image text](https://github.com/yflfly/nlp_tools/nlp-TFIDF/image/1.jpg)
 
 下面做个快速练习，考虑两个文件：
 
