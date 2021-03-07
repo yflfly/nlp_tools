@@ -56,7 +56,6 @@ def viterbi(obs_len, states_len, init_p, trans_p, emit_p):
 if __name__ == '__main__':
     hidden_state = ['AT', 'BEZ', 'IN', 'NN', 'VB', 'PERIOD']  # 隐状态
     observation = ['The', 'bear', 'is', 'on', 'the', 'move', '.']  # 观测序列
-
     # 初始状态
     start_probability = [0.2, 0.1, 0.1, 0.2, 0.3, 0.1]
     # 转移概率
